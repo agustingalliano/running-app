@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1921875" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/RunningApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/RunningApp/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/RunningApp/app/src/main/res/drawable/ic_add_black.xml" value="0.18229166666666666" />
@@ -22,8 +23,12 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/RunningApp/app/src/main/res/layout/fragment_statistics.xml" value="0.16614583333333333" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/RunningApp/app/src/main/res/layout/fragment_tracking.xml" value="0.16614583333333333" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/RunningApp/app/src/main/res/layout/item_run.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/bottom_nav_selector.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/ic_run.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_run.xml" value="0.16576086956521738" />
+        <entry key="app/src/main/res/layout/fragment_setup.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
