@@ -6,7 +6,7 @@ import com.example.runningapp.db.RunDAO
 import javax.inject.Inject
 
 class MainRepository @Inject constructor(
-    val runDAO: RunDAO
+    private val runDAO: RunDAO
 ){
     suspend fun insertRun(run: Run) { runDAO.insertRun(run) }
 

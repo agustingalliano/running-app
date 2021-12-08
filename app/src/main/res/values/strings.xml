@@ -2,7 +2,7 @@
     <string name="app_name">RunningApp</string>
     <string name="google_maps_key">AIzaSyBXx7AJ43ZKINO3oYbj63_FhO8JUVFQfnY</string>
     <string name="background_location_permission_title">Background Location</string>
-    <string name="background_location_permission_message">Do you want to enabled background permission?</string>
+    <string name="background_location_permission_message">Background permission is necessary for functionality correctly. Do you want to enabled background permission?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
     <string-array name="filter_options">
