@@ -2,6 +2,7 @@ package com.example.runningapp.ui
 
 import android.Manifest
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +15,7 @@ import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.runningapp.R
+import com.example.runningapp.other.Constants.ACTION_SHOW_TRACKING_FRAGMENT
 import com.example.runningapp.other.Constants.REQUEST_CODE_LOCATION_PERMISSIONS_B
 import com.example.runningapp.other.Constants.REQUEST_CODE_LOCATION_PERMISSIONS_FCB
 import com.example.runningapp.other.Constants.REQUEST_CODE_LOCATION_PERMISSIONS_FC_11
@@ -49,6 +51,19 @@ class MainActivity : AppCompatActivity() {
             checkLocationPermissionFC(REQUEST_CODE_LOCATION_PERMISSIONS_FC_9)
         }
 
+        navigateToTrackingFragmentIfNeeded(intent)
+
+    }
+
+    private fun navigateToTrackingFragmentIfNeeded(intent: Intent?) {
+        if(intent?.action == ACTION_SHOW_TRACKING_FRAGMENT) {
+            navHostFragment.findNavController().navigate(R.id.action_global_trackingFragment)
+        }
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        navigateToTrackingFragmentIfNeeded(intent)
     }
 
     @RequiresApi(Build.VERSION_CODES.M)
